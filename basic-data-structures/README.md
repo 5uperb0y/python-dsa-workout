@@ -10,5 +10,6 @@
 - [Reverse a string with stacks, page 67](./reverse_a_string_with_stacks.py)
 - [Simple blance parentheses, page 67](./simple_balance_parentheses.py)
 - [General blace parentheses, page 69](./general_balance_parentheses.py)
-- [Convert decimal numbers to binary numbers](./convert_decimal_to_binary.py)
-- [Convert infix expression to postfix expression](./convert_infix_to_prefix_and_postfix_expressions.py)
+- [Convert decimal numbers to binary numbers, page 71](./convert_decimal_to_binary.py)
+- [Convert infix expression to postfix expression, page 76](./convert_infix_to_prefix_and_postfix_expressions.py)
+- [Conduct calculation for postfix expression, page 79](./postfix_evaluation.py)
