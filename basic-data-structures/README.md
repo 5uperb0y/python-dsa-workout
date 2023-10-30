@@ -1,9 +1,18 @@
-
-
+# CHAPTER THREE | BASIC DATA STRUCTURES
 ## Review Questions
-- compare the performance of using the start and end as top of stack when using python list to implement a stack
-- why use `list` to implement stack? Can `list` serves a stack?
-- what's the common properties of problem that could be solved using a stack?
+- How does the choice of using the start or end of a Python list as the top impact the performance of a stack?
+- Why is a Python list commonly used to implement a stack? Is it effective?
+- What are the common characteristics of problems that are efficiently solved using a stack?
+- In what scenarios is a stack usually a more appropriate data structure than a queue or deque?
+- In what scenarios would a queue be more appropriate than a stack or deque?
+- What do the terms rear and front signify in the context of a queue?
+- What are the performance implications of using the start or end of a Python list as the rear/front in a queue?
+- Why does a stack typically have a peek() function, while a queue and a deque do not?
+- What is a deque and why is it not spelled 'dequeue'?
+- How do deques differ from Python lists in both functionality and performance?
+- What is the benefit of using a doubly-ended queue (Deque) over a stack or a queue?
+- What would be the time complexity of searching for an element in a stack, queue, and deque?
+- Can a deque be used as a stack and a queue both? If so, how?
 ## Exercises
 ### Stacks
 - [Implement a stack in python, page 65](./Stack.py)
@@ -13,3 +22,10 @@
 - [Convert decimal numbers to binary numbers, page 71](./convert_decimal_to_binary.py)
 - [Convert infix expression to postfix expression, page 76](./convert_infix_to_prefix_and_postfix_expressions.py)
 - [Conduct calculation for postfix expression, page 79](./postfix_evaluation.py)
+### Queues
+- [Implement a queue in python, page 83](./Queue.py)
+- [Hot potato, page 84](./hot_potato.py)
+- [Printer (unsolved), page 86](./printer.py)
+### Deques
+- [Implement a deque in python, page 94](./Deque.py)
+- [Check if a string is palindrome, page 96](./palindrome_checker.py)
