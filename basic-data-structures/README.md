@@ -13,6 +13,22 @@
 - What is the benefit of using a doubly-ended queue (Deque) over a stack or a queue?
 - What would be the time complexity of searching for an element in a stack, queue, and deque?
 - Can a deque be used as a stack and a queue both? If so, how?
+
+- What's the difference between the term "list" and "array"?
+- What's the differnece between add and append in a unordered list structure
+- What's the definition of a linked list? are there unlinked list or hashed list?
+- Why is it important to define a next attributes for a Node class in the implement list with Python? what if unininitaized a Null for next attributes? Can we use other attribute name?
+- explane "grounding the node" what's the advantage use Null as the indicator of a empty list? why not create a tail attributes?
+- Where to place new items into a list? What's this matter in an ordered list and in an unordered list?
+- what's the difference between assigning value directly(object.attrrib = something) or using a function(object.set_attrib(something))?
+- for a linked list, hte "next" property od Node should be point forward or backword? you should elongate a linked list from which end?
+- are there un-linked list?
+- explain "linked list traversal". What if an empty list? 
+- what is "inch worming" in linked list manipulation? what does it mean? what manipulation need this step? and Why?
+- what's the difference when removing first node, last node, and other nodes? Are there special considerations when removing those nodes at specific position?
+- what's the time complexity for each list operation? what factors influence the complexity?
+- what's the meaning of "index" in an unordered list?
+
 ## Exercises
 ### Stacks
 - [Implement a stack in python, page 65](./Stack.py)
