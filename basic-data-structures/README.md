@@ -8,27 +8,32 @@
 - What do the terms rear and front signify in the context of a queue?
 - What are the performance implications of using the start or end of a Python list as the rear/front in a queue?
 - Why does a stack typically have a peek() function, while a queue and a deque do not?
-- What is a deque and why is it not spelled 'dequeue'?
+- What is a deque and why is it not spelled "dequeue"?
 - How do deques differ from Python lists in both functionality and performance?
 - What is the benefit of using a doubly-ended queue (Deque) over a stack or a queue?
 - What would be the time complexity of searching for an element in a stack, queue, and deque?
 - Can a deque be used as a stack and a queue both? If so, how?
-
-- What's the difference between the term "list" and "array"?
-- What's the differnece between add and append in a unordered list structure
-- What's the definition of a linked list? are there unlinked list or hashed list?
-- Why is it important to define a next attributes for a Node class in the implement list with Python? what if unininitaized a Null for next attributes? Can we use other attribute name?
-- explane "grounding the node" what's the advantage use Null as the indicator of a empty list? why not create a tail attributes?
-- Where to place new items into a list? What's this matter in an ordered list and in an unordered list?
-- what's the difference between assigning value directly(object.attrrib = something) or using a function(object.set_attrib(something))?
-- for a linked list, hte "next" property od Node should be point forward or backword? you should elongate a linked list from which end?
-- are there un-linked list?
-- explain "linked list traversal". What if an empty list? 
-- what is "inch worming" in linked list manipulation? what does it mean? what manipulation need this step? and Why?
-- what's the difference when removing first node, last node, and other nodes? Are there special considerations when removing those nodes at specific position?
-- what's the time complexity for each list operation? what factors influence the complexity?
-- what's the meaning of "index" in an unordered list?
-
+- Distinguish between "list" and "array" in programming terms.
+- Differentiate the "add" operation from "append" in the context of an unordered list.
+- Define a linked list and discuss the existence and characteristics of unlinked or hashed lists.
+- Discuss the significance of the "next" attribute in a Node class when implementing lists in Python, including the implications of leaving it uninitialized or naming it differently.
+- Clarify the concept of "grounding the node" and the advantages of using "Null" to indicate an empty list versus having a tail attribute.
+- Describe the considerations for placing new items in a list, contrasting ordered and unordered lists.
+- Compare direct assignment of values to attributes versus the use of setter methods in object-oriented programming.
+- For linked lists, should the "next" property of a Node point forwards or backwards, and from which end should the list be elongated?
+- Discuss the concept and potential existence of un-linked lists.
+- Explain the process of linked list traversal, including how it differs when the list is empty.
+- Define "inchworming" in the context of linked list manipulation, the types of manipulations that require this approach, and the rationale behind it.
+- Outline the differences and special considerations when removing the first node, last node, or nodes in other positions from a list.
+- Discuss the time complexity of various list operations and the factors that affect this complexity.
+- Examine the relevance of the term "index" in an unordered list.
+- Contrast the list operations (add, append, pop, search, remove, insert, is_empty) in ordered versus unordered lists.
+- Evaluate the appropriateness of using insert, pop, and append operations in an ordered list.
+- Assess whether Python uses a linked list to implement its list data structure by analyzing the time complexity of list operations.
+- Determine the outcome and potential problems of executing the steps of the linked list "add" method in reverse order.
+- Describe the procedure of the linked list "remove" method when the targeted item is in the last node.
+- Explain the operation of the "remove" method in a linked list when the item to be removed is within the sole node of the list.
+- 
 ## Exercises
 ### Stacks
 - [Implement a stack in python, page 65](./Stack.py)
@@ -45,3 +50,6 @@
 ### Deques
 - [Implement a deque in python, page 94](./Deque.py)
 - [Check if a string is palindrome, page 96](./palindrome_checker.py)
+### Lists
+- [Implement an unordered in python, page 99](./UnorderedList.py)
+- [Implement an ordered in python, page 108](./OrderedList.py)

@@ -1,6 +1,6 @@
 """
 Design an Unordered List class in Python, capturing the essence of the list data structure.
-- List(): creates an empty list. No parameters needed. Returns the empty list.
+- UnorderedList(): creates an empty list. No parameters needed. Returns the empty list.
 - is_empty(): checks whether the list is empty and returns a boolean.
 - add(item): adds a new and unique item to the list. It needs the item and returns nothing. Assume the item is not already in the list.
 - search(item): searches for the item in the list and returns a boolean.
@@ -37,7 +37,8 @@ class UnorderedList():
 		while current:
 			if current.data == item:
 				return True
-			current = current.next
+			else:
+				current = current.next
 		return False
 	def remove(self, item):
 		current = self.head
@@ -49,7 +50,9 @@ class UnorderedList():
 				else:
 					previous.next = current.next
 				return
-			current, previous = current.next, current
+			else:
+				previous = current
+				current = current.next
 	def index(self, item):
 		pos = 0
 		current = self.head
