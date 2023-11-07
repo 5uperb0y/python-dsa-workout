@@ -53,3 +53,5 @@
 ### Lists
 - [Implement an unordered in python, page 99](./UnorderedList.py)
 - [Implement an ordered in python, page 108](./OrderedList.py)
+## Todo pratices at page
+3,4,5,6,7,10,11,12,14,15,16,18,20,21,22,23,25
