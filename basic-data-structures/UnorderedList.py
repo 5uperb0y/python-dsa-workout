@@ -89,18 +89,21 @@ class UnorderedList():
 		current = self.head
 		current_pos = 0
 		previous = None
-		while current.next is not None:
-			if current_pos == pos:
-				if previous is None:
-					self.head = None
-				else:
-					previous.next = current.next
-				return current.data
-			previous = current
-			current = current.next
-			current_pos = current_pos + 1
-		previous.next = current.next
-		return current.data
+		if self.is_empty():
+			raise Exception("pop from empty stack")
+		else:
+			while current.next is not None:
+				if current_pos == pos:
+					if previous is None:
+						self.head = None
+					else:
+						previous.next = current.next
+					return current.data
+				previous = current
+				current = current.next
+				current_pos = current_pos + 1
+			previous.next = current.next
+			return current.data
 	def __iter__(self):
 		current = self.head
 		while current:
