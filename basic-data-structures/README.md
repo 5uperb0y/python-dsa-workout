@@ -34,6 +34,7 @@
 - Describe the procedure of the linked list "remove" method when the targeted item is in the last node.
 - Explain the operation of the "remove" method in a linked list when the item to be removed is within the sole node of the list.
 - Evaluate the time complexity of operations of doubly linked list.
+- What if the list classes allowing duplicates. Which methods will be impacted by this change?
 ## Exercises
 ### Stacks
 - [Implement a stack in python, page 65](./Stack.py)
@@ -58,4 +59,4 @@
 - [Implement a deque with linked list](./Deque_with_list.py)
 - [Implement a doubly linked list](./DoublyLinkedList.py)
 ## Todo pratices at page
-3,4,5,6,7,10,11,12,14,15,16,18,23
+3,4,5,6,7,10,11,12,14,18,23

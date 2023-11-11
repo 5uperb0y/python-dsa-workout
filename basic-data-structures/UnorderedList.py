@@ -92,18 +92,22 @@ class UnorderedList():
 		if self.is_empty():
 			raise Exception("pop from empty stack")
 		else:
-			while current.next is not None:
-				if current_pos == pos:
-					if previous is None:
-						self.head = None
-					else:
-						previous.next = current.next
-					return current.data
-				previous = current
-				current = current.next
-				current_pos = current_pos + 1
-			previous.next = current.next
-			return current.data
+			pop_item = current.data
+			if self.size() == 1:
+				self.head == None
+			else:
+				while current.next is not None:
+					if current_pos == pos:
+						if previous is None:
+							self.head = None
+						else:
+							previous.next = current.next
+						return current.data
+					previous = current
+					current = current.next
+					current_pos = current_pos + 1
+				previous.next = current.next
+			return pop_item
 	def __iter__(self):
 		current = self.head
 		while current:
