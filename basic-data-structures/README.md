@@ -44,6 +44,7 @@
 - [Convert decimal numbers to binary numbers, page 71](./convert_decimal_to_binary.py)
 - [Convert infix expression to postfix expression, page 76](./convert_infix_to_prefix_and_postfix_expressions.py)
 - [Conduct calculation for postfix expression, page 79](./postfix_evaluation.py)
+- [Design an infix calculator](./infix_calculator.py)
 ### Queues
 - [Implement a queue in python, page 83](./Queue.py)
 - [Hot potato, page 84](./hot_potato.py)
@@ -58,5 +59,7 @@
 - [Implement a stack with linked list](./Stack_with_list.py)
 - [Implement a deque with linked list](./Deque_with_list.py)
 - [Implement a doubly linked list](./DoublyLinkedList.py)
+- [Alternative length methods for linked lists](./UnorderedListNodeNum.py)
+- [Implement an infix calculator](./infix_calculator.py)
 ## Todo pratices at page
-3,4,5,6,7,10,11,12,14,18,23
+5,6,7,10,11,14,18,23
