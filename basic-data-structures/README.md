@@ -35,6 +35,7 @@
 - Explain the operation of the "remove" method in a linked list when the item to be removed is within the sole node of the list.
 - Evaluate the time complexity of operations of doubly linked list.
 - What if the list classes allowing duplicates. Which methods will be impacted by this change?
+- It is possible to implement a queue such that both enqueue and dequeue have O(1) performance on average. In this case it means that most of the time enqueue and dequeue will be O(1) except in one particular circumstance where dequeue will be O(n).
 ## Exercises
 ### Stacks
 - [Implement a stack in python, page 65](./Stack.py)
@@ -62,4 +63,4 @@
 - [Alternative length methods for linked lists](./UnorderedListNodeNum.py)
 - [Implement an infix calculator](./infix_calculator.py)
 ## Todo pratices at page
-5,6,7,10,11,14,18,23
+10,11

@@ -11,6 +11,7 @@ Design an Unordered List class in Python, capturing the essence of the list data
 - insert(pos,item): adds a new item to the list at position pos. It needs the item and returns nothing. Assume the item is not already in the list and there are enough existing items to have position pos.
 - pop(): removes and returns the last item in the list. It needs nothing and returns an item.  Assume the list has at least one item.
 - pop(pos): removes and returns the item at position pos. It needs the position and returns the item. Assume the item is in the list.
+- slice(start,stop): It should take two parameters, start and stop, and return a copy of the list starting at the start position and going up to but not including the stop position.
 """
 class Node():
 	def __init__(self, data):
@@ -108,6 +109,16 @@ class UnorderedList():
 					current_pos = current_pos + 1
 				previous.next = current.next
 			return pop_item
+	def slice(self, start, stop):
+		pos = 0
+		current = self.head
+		subset = UnorderedList()
+		while current:
+			if pos in range(start, stop):
+				subset.append(current.data)
+			current = current.next
+			pos = pos + 1
+		return subset
 	def __iter__(self):
 		current = self.head
 		while current:
