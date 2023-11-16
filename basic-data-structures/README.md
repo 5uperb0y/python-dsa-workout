@@ -33,7 +33,9 @@
 - Determine the outcome and potential problems of executing the steps of the linked list "add" method in reverse order.
 - Describe the procedure of the linked list "remove" method when the targeted item is in the last node.
 - Explain the operation of the "remove" method in a linked list when the item to be removed is within the sole node of the list.
-- 
+- Evaluate the time complexity of operations of doubly linked list.
+- What if the list classes allowing duplicates. Which methods will be impacted by this change?
+- It is possible to implement a queue such that both enqueue and dequeue have O(1) performance on average. In this case it means that most of the time enqueue and dequeue will be O(1) except in one particular circumstance where dequeue will be O(n).
 ## Exercises
 ### Stacks
 - [Implement a stack in python, page 65](./Stack.py)
@@ -43,15 +45,20 @@
 - [Convert decimal numbers to binary numbers, page 71](./convert_decimal_to_binary.py)
 - [Convert infix expression to postfix expression, page 76](./convert_infix_to_prefix_and_postfix_expressions.py)
 - [Conduct calculation for postfix expression, page 79](./postfix_evaluation.py)
+- [Design an infix calculator, exercise 4](./infix_calculator.py)
 ### Queues
 - [Implement a queue in python, page 83](./Queue.py)
 - [Hot potato, page 84](./hot_potato.py)
 - [Printer (unsolved), page 86](./printer.py)
+- [Implement a radix sorting machine, exercise 10](./radix_sorting_machine.py)
 ### Deques
 - [Implement a deque in python, page 94](./Deque.py)
 - [Check if a string is palindrome, page 96](./palindrome_checker.py)
 ### Lists
-- [Implement an unordered in python, page 99](./UnorderedList.py)
-- [Implement an ordered in python, page 108](./OrderedList.py)
-## Todo pratices at page
-3,4,5,6,7,10,11,12,14,15,16,18,20,21,22,23,25
+- [Implement an unordered list in python, page 99](./UnorderedList.py)
+- [Implement an ordered list in python, page 108](./OrderedList.py)
+- [Implement a queue with linked list, exercise 21](./Queue_with_list.py)
+- [Implement a stack with linked list, exercise 20](./Stack_with_list.py)
+- [Implement a deque with linked list, exercise 22](./Deque_with_list.py)
+- [Implement a doubly linked list, exercise 25](./DoublyLinkedList.py)
+- [Alternative length methods for linked lists, exercise 12](./UnorderedListNodeNum.py)
