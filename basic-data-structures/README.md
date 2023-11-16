@@ -50,6 +50,7 @@
 - [Implement a queue in python, page 83](./Queue.py)
 - [Hot potato, page 84](./hot_potato.py)
 - [Printer (unsolved), page 86](./printer.py)
+- [Implement a radix sorting machine](./radix_sorting_machine.py)
 ### Deques
 - [Implement a deque in python, page 94](./Deque.py)
 - [Check if a string is palindrome, page 96](./palindrome_checker.py)
@@ -62,5 +63,3 @@
 - [Implement a doubly linked list](./DoublyLinkedList.py)
 - [Alternative length methods for linked lists](./UnorderedListNodeNum.py)
 - [Implement an infix calculator](./infix_calculator.py)
-## Todo pratices at page
-10,11
