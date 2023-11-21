@@ -17,6 +17,7 @@
 - [Draw a fractal tree, page 126](./draw_fractal_tree.py)
 - [The tower of Hanoi, page 133](./hanoi_tower.py)
 - [The tower of Hanoi with disk visualization, page 133](./hanoi_tower_viz.py)
+- [Create a maze, page 137](./maze.py)
 
 ## To do exercise
 - Using the turtle graphics module, write a recursive program to display a Hilbert curve.
