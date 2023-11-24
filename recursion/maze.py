@@ -60,6 +60,9 @@ def set_maze(width, height):
 	pathing(grid, x, y)
 	maze = add_exit(grid)
 	return maze
-maze = set_maze(20, 20)
-for row in maze:
-	print("".join(["█" if cell == 0 else " " for cell in row]))
+def main():
+	maze = set_maze(20, 20)
+	for row in maze:
+		print("".join(["█" if cell == 0 else " " for cell in row]))
+if __name__ == "main":
+	main()
