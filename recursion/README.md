@@ -20,6 +20,7 @@
 - [Create a maze, page 137](./maze.py)
 - [Find a way to exit a maze, page 137](./find_exit.py)
 - [Draw a Pascal's triangle, page 146](./pascals_triangle.py)
+- [Cross river problem, page 146](./cross_river.py)
 ## To do exercise
 - Using the turtle graphics module, write a recursive program to display a Hilbert curve.
 - Using the turtle graphics module, write a recursive program to display a Koch snowflake.
@@ -29,6 +30,3 @@ be used to fill the jugs with water. How can you get exactly two gallons of wate
 4-gallon jug?
 - Generalize the problem above so that the parameters to your solution include the sizes of
 each jug and the final amount of water to be left in the larger jug.
-- Write a program that solves the following problem: Three missionaries and three cannibals come to a river and find a boat that holds two people. Everyone must get across the
-river to continue on the journey. However, if the cannibals ever outnumber the missionaries on either bank, the missionaries will be eaten. Find a series of crossings that will
-get everyone safely to the other side of the river.
