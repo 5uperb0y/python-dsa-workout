@@ -1,11 +1,13 @@
 # CHAPTER FOUR | RECURSION
 
 ## Review Questions
-- Give your own explaination of "what is recursion"
-- What are "The Three Laws of Recursion"
-- How Stack frame helps us understand recursion?
-- Why fractal feature is associate with recursion?
-
+- Explain the concept of recursion and provide an example of a recursive solution.
+- What are the Three Laws of Recursion, and why are they crucial?
+- Describe how stack frames are used in the execution of recursive functions.
+- Explain the relationship between fractals and recursion.
+- In recursive maze solving, why is a stack used implicitly instead of a queue?
+- Why is Depth-First Search preferred in recursive maze solving? Discuss the trade-offs between DFS and BFS.
+- Describe a scenario where a recursive solution is more efficient than an iterative one. What makes recursion a better choice in this scenario?
 
 ## Exercises
 - [Implement list sum with recursion, page 118](./list_sum.py)
@@ -21,12 +23,4 @@
 - [Find a way to exit a maze, page 137](./find_exit.py)
 - [Draw a Pascal's triangle, page 146](./pascals_triangle.py)
 - [Cross river problem, page 146](./cross_river.py)
-## To do exercise
-- Using the turtle graphics module, write a recursive program to display a Hilbert curve.
-- Using the turtle graphics module, write a recursive program to display a Koch snowflake.
-- Write a program to solve the following problem: You have two jugs: a 4-gallon jug and
-a 3-gallon jug. Neither of the jugs have markings on them. There is a pump that can
-be used to fill the jugs with water. How can you get exactly two gallons of water in the
-4-gallon jug?
-- Generalize the problem above so that the parameters to your solution include the sizes of
-each jug and the final amount of water to be left in the larger jug.
+- [Pour water problem, page 146](./jugs.py)
